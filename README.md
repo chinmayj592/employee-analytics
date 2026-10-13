@@ -20,7 +20,7 @@ pip install -r requirements.txt
 Create a `.env` file at the project root:
 
 ```
-MONGO_URI=mongodb://localhost:27017
+MONGO_URI=mongodb+srv://chinmayjaiswal1000_db_user:yfNZhLII8gF507ui@cluster0.iz3syjs.mongodb.net/
 MONGO_DB=attendance_db
 ```
 
@@ -101,9 +101,8 @@ curl "http://localhost:8000/admin/explain/attendance_list?emp_code=EMP0001"
 - Both are within the MongoDB 6.0+ requirement.
 - No authentication is implemented; `regularized_by` is free text.
 
-## What is missing
-
-Nothing. All 12 endpoints are implemented:
+ 
+#All 12 endpoints are implemented:
 
 | Method | Path | Status |
 |--------|------|--------|
