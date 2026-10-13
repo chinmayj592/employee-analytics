@@ -20,7 +20,7 @@ pip install -r requirements.txt
 Create a `.env` file at the project root:
 
 ```
-MONGO_URI=mongodb+srv://chinmayjaiswal1000_db_user:yfNZhLII8gF507ui@cluster0.iz3syjs.mongodb.net/
+MONGO_URI=`MONGO_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/`
 MONGO_DB=attendance_db
 ```
 
